@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXComboBox?>
+<?import io.github.palexdev.materialfx.controls.MFXNotificationCenter?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorCentro1">
+   <center>
+      <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+         <children>
+            <Label fx:id="lb1" alignment="CENTER" layoutX="39.0" layoutY="147.0" prefHeight="87.0" prefWidth="142.0" style="-fx-border-color: green;" />
+            <MFXButton layoutX="110.0" layoutY="14.0" />
+            <MFXComboBox layoutX="236.0" layoutY="147.0" />
+            <MFXNotificationCenter headerTextProperty="NO" layoutX="506.0" layoutY="14.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
